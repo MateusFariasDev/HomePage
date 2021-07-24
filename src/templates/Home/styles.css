@@ -22,12 +22,21 @@
   margin: 10px;
 }
 
-.medias a svg {
-  color: #ACACAC;
-  transition: 300ms all ease-in-out;
+@media (min-width: 501px) {
+  .medias a svg {
+    color: #ACACAC;
+    transition: 300ms all ease-in-out;
+  }
+
+  .medias a svg:hover {
+    color: #fff;
+    filter:drop-shadow(0 0 2px #acacac)
+  }
 }
 
-.medias a svg:hover {
-  color: #fff;
-  filter:drop-shadow(0 0 2px #acacac)
+@media (max-width: 500px) {
+  .medias a svg {
+    color: #fff;
+    filter:drop-shadow(0 0 2px #acacac)
+  }
 }
