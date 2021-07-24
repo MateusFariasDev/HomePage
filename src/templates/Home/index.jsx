@@ -13,8 +13,8 @@ export const Home = () => {
       </div>
       <div className="description">
         <p>
-          Docker, Nginx, Google Cloud Platform, API Rest, MongoDB, MySQL, HTML, CSS, Javascript, NodeJs, Jest, React,
-          Redux e Git.
+          Docker, Kubernetes, Nginx, Google Cloud Platform, API Rest, MongoDB, MySQL, HTML, CSS, Javascript, NodeJs,
+          Jest, React, Redux e Git.
         </p>
         <br />
         <p>
