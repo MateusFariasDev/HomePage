@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: transparent;
+  padding: 20px 30px 30px 30px;
+}
+
+.container div {
+  margin: 10px 0;
+}
+
+.container .title small {
+  font-style: italic;
+}
+
+.medias a {
+  margin: 10px;
+}
+
+.medias a svg {
+  color: #ACACAC;
+  transition: 300ms all ease-in-out;
+}
+
+.medias a svg:hover {
+  color: #fff;
+  filter:drop-shadow(0 0 2px #acacac)
+}
