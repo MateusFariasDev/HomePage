@@ -14,8 +14,17 @@
   margin: 10px 0;
 }
 
+.container .title h1 {
+  font-weight: normal;
+  font-size: 2em;
+}
+
 .container .title small {
   font-style: italic;
+}
+
+.container div.medias {
+  margin: 20px 0;
 }
 
 .medias a {
@@ -35,6 +44,16 @@
 }
 
 @media (max-width: 500px) {
+  div.title {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+  }
+
+  div.title h1 span.block {
+    display: flex;
+  }
+
   .medias a svg {
     color: #fff;
     filter:drop-shadow(0 0 2px #acacac)
